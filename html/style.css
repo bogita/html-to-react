@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1248px;
+    margin: auto;
+}
+.header{
+    background-color: black;
+    color: #35eb90;
+    padding: 2.5%;
+}
+h1, h3, h2{
+    margin: 0px;
+}
+.card-one {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.card-two {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.center{
+    text-align: center;
+}
+.todo-list-wrapper{
+    margin-top: 5%;
+}
+.todo-list-items, .todo-list-wrapper,
+.item, .todo-list-items{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.item{
+    margin-top: 1.5%;
+}
+.item-label{
+    width: 70%;
+    float: left;
+    font-size: 24px;
+    padding-left: 5%;
+}
+.item-action{
+    width: 25%;
+    float: left;
+}
+.btn{
+    width: 49%;
+    padding: 2.5%;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+.btn-delete{
+    background-color: black;
+    color: red;
+}
+.btn-edit{
+    background-color: #35eb90;
+    color: black;
+}
+.item:nth-child(odd){
+    background-color: #ddd;
+}
+input{
+    border: 1px solid #ddd;
+    width: 95%;
+    height: 50px;
+}
+.add{
+    background-color: white !important;
+}
+.btn-add{
+    width: 100% !important;
+    height: 55px !important;
+    background-color: #35eb90;;
+    color: black;
+}
+.btn-add:hover{
+    background-color: #00f77b;
+}
